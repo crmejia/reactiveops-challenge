@@ -16,3 +16,6 @@ fi
    echo name should be AWS_SECRET_ACCESS_KEY
    exit 1
  fi
+
+ terraform init
+ terraform apply
