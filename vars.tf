@@ -1,6 +1,6 @@
 variable "server_port" {
   description = "HTTP port"
-  default = 8080
+  default = 3000
 }
 
 variable "ssh_port" {
